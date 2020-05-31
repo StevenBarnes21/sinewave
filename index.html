@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adjustable Sine wave</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/sinewave.js"></script>
+</head>
+<body>
+  <canvas></canvas>
+  <div class="container">
+    <label for="amp">Amplitude</label>
+    <input type="range" name="amp" id="amp" min="1" max="123"> <span id="amp-span">50</span>
+    
+    <label for="amp">Wavelength</label>
+    <input type="range" name="wave" id="wave" min="1" max="100"> <span id="wave-span">50</span>
+    
+     <label for="amp">Line Thickness</label>
+    <input type="range" name="line" id="line" min="1" max="10" value="1"> <span id="line-span">1</span>
+    
+   <label for="rainbow">Rainbow</label> 
+    <input type="checkbox" name="rainbow" id="rainbow" checked>
+  </div>
+</body>
+</html>
